@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<title>Jackie Condomí Alcorta | Via Positiva, transformación y bienestar psicosocial</title>
+<meta name="description" content="Via Positiva acompaña a líderes y organizaciones en transformación, bienestar psicosocial y cultura organizacional. Más de 17 años de experiencia.">
+<link rel="canonical" href="https://viapositiva.com.ar/">
+<meta name="theme-color" content="#0F3B36">
+<meta name="author" content="Jackie Condomí Alcorta">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Via Positiva">
+<meta property="og:locale" content="es_AR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:url" content="https://viapositiva.com.ar/">
+<meta property="og:title" content="Jackie Condomí Alcorta | Via Positiva, transformación y bienestar psicosocial">
+<meta property="og:description" content="Via Positiva acompaña a líderes y organizaciones en transformación, bienestar psicosocial y cultura organizacional. Más de 17 años de experiencia.">
+<meta property="og:image" content="https://viapositiva.com.ar/foto.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "name": "Jackie Condomí Alcorta",
+      "jobTitle": "Consultora en Relaciones Institucionales, Transformación, Bienestar Psicosocial y Cultura Organizacional",
+      "worksFor": { "@type": "Organization", "name": "Via Positiva" },
+      "image": "https://viapositiva.com.ar/foto.jpg",
+      "url": "https://viapositiva.com.ar/",
+      "email": "mailto:bienestar.viapositiva@gmail.com",
+      "sameAs": [
+        "https://www.linkedin.com/in/jackie-condomi-alcorta/",
+        "https://www.instagram.com/via_positiva/"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "name": "Via Positiva",
+      "url": "https://viapositiva.com.ar/",
+      "email": "bienestar.viapositiva@gmail.com",
+      "founder": { "@type": "Person", "name": "Jackie Condomí Alcorta" },
+      "sameAs": [
+        "https://www.linkedin.com/in/jackie-condomi-alcorta/",
+        "https://www.instagram.com/via_positiva/"
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+:root {
+  --pine: #0F3B36;
+  --pine-deep: #0A2926;
+  --sage: #E2ECE6;
+  --mist: #F5F8F6;
+  --marigold: #F0B23C;
+  --ink: #1B2B28;
+  --ink-soft: #465B52;
+  --on-dark: #EAF2EE;
+  --on-dark-soft: #B9CFC6;
+  --focus: var(--pine);
+
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --gutter: max(1.25rem, env(safe-area-inset-left), env(safe-area-inset-right));
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-padding-top: 76px;
+  -webkit-text-size-adjust: 100%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
+body {
+  margin: 0;
+  background: var(--mist);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+.dark { --focus: var(--marigold); }
+
+.wrap {
+  width: 100%;
+  max-width: 1120px;
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+h1, h2, h3 {
+  font-family: var(--serif);
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+p { margin: 0 0 1.1em; }
+
+/* ---------- Header ---------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--pine);
+  color: var(--on-dark);
+  padding-top: env(safe-area-inset-top, 0px);
+}
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0 1rem;
+  min-height: 64px;
+}
+.brand {
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+.bar-end { display: flex; align-items: center; gap: .75rem; }
+
+.lang {
+  display: inline-flex;
+  border: 1px solid rgba(234,242,238,.45);
+  border-radius: 999px;
+  padding: 2px;
+}
+.lang button {
+  font: inherit;
+  font-size: .85rem;
+  line-height: 1;
+  color: var(--on-dark);
+  background: transparent;
+  border: 0;
+  border-radius: 999px;
+  padding: .5rem .8rem;
+  min-height: 36px;
+  cursor: pointer;
+}
+.lang button[aria-pressed="true"] {
+  background: var(--marigold);
+  color: var(--pine-deep);
+  font-weight: 600;
+}
+
+.menu-btn {
+  font: inherit;
+  font-size: .95rem;
+  color: var(--on-dark);
+  background: transparent;
+  border: 1px solid rgba(234,242,238,.45);
+  border-radius: 999px;
+  padding: 0 1rem;
+  min-height: 40px;
+  cursor: pointer;
+}
+
+.nav {
+  display: none;
+  flex-basis: 100%;
+  order: 5;
+  border-top: 1px solid rgba(234,242,238,.2);
+  padding: .5rem 0 1rem;
+}
+.nav.open { display: block; }
+.nav ul { list-style: none; margin: 0; padding: 0; }
+.nav a {
+  display: block;
+  padding: .75rem 0;
+  text-decoration: none;
+  font-size: 1.05rem;
+}
+.nav a:hover { color: var(--marigold); }
+
+@media (min-width: 860px) {
+  .menu-btn { display: none; }
+  .bar { flex-wrap: nowrap; }
+  .nav, .nav.open {
+    display: block;
+    border: 0;
+    padding: 0;
+    order: 2;
+    flex-basis: auto;
+    margin-left: auto;
+    margin-right: 1.25rem;
+  }
+  .nav ul { display: flex; gap: 1.75rem; }
+  .nav a { padding: .25rem 0; font-size: .98rem; }
+  .bar-end { order: 3; }
+  .brand { order: 1; }
+  .header-inner { position: relative; }
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  background: var(--pine);
+  color: var(--on-dark);
+  padding: clamp(3rem, 8vw, 6rem) 0 clamp(3.5rem, 9vw, 7rem);
+}
+.hero-grid {
+  display: grid;
+  gap: 3.5rem;
+  align-items: center;
+}
+.hero h1 {
+  font-size: clamp(2.6rem, 8.2vw, 5rem);
+  line-height: 1.04;
+  margin-bottom: 1.5rem;
+}
+.hero .lead {
+  font-family: var(--serif);
+  font-size: clamp(1.25rem, 3.2vw, 1.75rem);
+  line-height: 1.35;
+  max-width: 30ch;
+  margin-bottom: 1.5rem;
+}
+.hero .sub {
+  color: var(--on-dark-soft);
+  max-width: 52ch;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: .75rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: background-color .2s, color .2s, border-color .2s;
+}
+.btn-primary { background: var(--marigold); color: var(--pine-deep); }
+.btn-primary:hover { background: #F7C565; }
+.btn-line { border-color: rgba(234,242,238,.55); color: var(--on-dark); }
+.btn-line:hover { border-color: var(--marigold); color: var(--marigold); }
+
+.arch {
+  position: relative;
+  width: min(340px, 76vw);
+  aspect-ratio: 4 / 5;
+  justify-self: start;
+  margin-right: 18px;
+}
+.arch::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translate(18px, 18px);
+  border: 3px solid var(--marigold);
+  border-radius: 999px 999px 0 0;
+}
+.arch-frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 999px 999px 0 0;
+  background: var(--sage);
+  display: grid;
+  place-items: center;
+}
+.arch-frame::after {
+  content: "JC";
+  position: absolute;
+  font-family: var(--serif);
+  font-size: 4rem;
+  color: var(--pine);
+  opacity: .35;
+  z-index: 0;
+}
+.arch-frame img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+@media (min-width: 860px) {
+  .hero-grid { grid-template-columns: 1.3fr .7fr; gap: 4rem; }
+  .arch { justify-self: end; width: min(360px, 100%); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero-copy > * { animation: rise .7s ease both; }
+  .hero-copy > *:nth-child(2) { animation-delay: .1s; }
+  .hero-copy > *:nth-child(3) { animation-delay: .2s; }
+  .hero-copy > *:nth-child(4) { animation-delay: .3s; }
+  @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+}
+
+/* ---------- Sections ---------- */
+.section { padding: clamp(3.5rem, 9vw, 7rem) 0; }
+.section.alt { background: var(--sage); }
+.section.dark { background: var(--pine); color: var(--on-dark); }
+
+.split { display: grid; gap: 2rem; }
+.split > h2 {
+  font-size: clamp(1.9rem, 4.6vw, 2.75rem);
+  line-height: 1.15;
+}
+@media (min-width: 860px) {
+  .split { grid-template-columns: 300px 1fr; gap: 4rem; align-items: start; }
+  .split > h2 { position: sticky; top: 100px; }
+}
+
+.prose { max-width: 62ch; }
+.prose p { line-height: 1.75; }
+.prose .closing {
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  line-height: 1.5;
+  border-left: 4px solid var(--marigold);
+  padding-left: 1.25rem;
+  margin-top: 2rem;
+  color: var(--pine);
+}
+
+/* Achievements ledger */
+.ledger { list-style: none; margin: 0 0 3rem; padding: 0; }
+.ledger li {
+  display: grid;
+  grid-template-columns: minmax(5.5rem, 8.5rem) 1fr;
+  gap: 1.25rem;
+  align-items: baseline;
+  border-top: 1px solid rgba(15,59,54,.3);
+  padding: 1.5rem 0;
+}
+.ledger li:last-child { border-bottom: 1px solid rgba(15,59,54,.3); }
+.ledger .num {
+  font-family: var(--serif);
+  font-size: clamp(2.75rem, 8vw, 4.25rem);
+  line-height: 1;
+  color: var(--pine);
+}
+.ledger .txt { max-width: 44ch; }
+
+.commit h3 { font-size: 1.4rem; margin-bottom: 1rem; }
+.commit ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .9rem; }
+.commit li {
+  border-left: 4px solid var(--marigold);
+  padding-left: 1rem;
+  max-width: 52ch;
+}
+
+/* Areas */
+.areas { list-style: none; margin: 0; padding: 0; display: grid; gap: 2rem 3rem; }
+.areas li { border-top: 1px solid rgba(27,43,40,.25); padding-top: 1rem; }
+.areas h3 { font-size: 1.3rem; line-height: 1.25; margin-bottom: .5rem; }
+.areas p { color: var(--ink-soft); margin: 0; }
+@media (min-width: 700px) {
+  .areas { grid-template-columns: 1fr 1fr; }
+}
+
+/* Press */
+.press { list-style: none; margin: 0; padding: 0; }
+.press li {
+  display: grid;
+  gap: .25rem 2rem;
+  padding: 1.25rem 0;
+  border-top: 1px solid rgba(27,43,40,.25);
+}
+.press li:last-child { border-bottom: 1px solid rgba(27,43,40,.25); }
+.press .kind { color: var(--ink-soft); font-size: .95rem; }
+.press a {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  line-height: 1.35;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+.press a:hover { color: var(--pine); text-decoration-thickness: 3px; text-decoration-color: var(--marigold); }
+@media (min-width: 700px) {
+  .press li { grid-template-columns: 9rem 1fr; align-items: baseline; }
+}
+
+/* Contact */
+.contact h2 { color: var(--on-dark); }
+.contact p { max-width: 50ch; color: var(--on-dark-soft); }
+.contact .email {
+  display: inline-block;
+  font-family: var(--serif);
+  font-size: clamp(1.2rem, 4.6vw, 1.75rem);
+  color: var(--on-dark);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px;
+  margin: .5rem 0 2rem;
+  overflow-wrap: anywhere;
+}
+.contact .email:hover { color: var(--marigold); }
+.actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+
+/* Footer */
+.site-footer {
+  background: var(--pine-deep);
+  color: var(--on-dark-soft);
+  font-size: .92rem;
+  padding: 1.75rem 0 calc(1.75rem + env(safe-area-inset-bottom, 0px));
+}
+.site-footer p { margin: 0; }
+</style>
+</head>
+
+<body>
+
+<header class="site-header dark">
+  <div class="wrap header-inner">
+    <div class="bar">
+      <a class="brand" href="#inicio">Via Positiva</a>
+
+      <nav class="nav" id="menu" data-aria-es="Navegación principal" data-aria-en="Main navigation" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio" data-en="Inicio">Inicio</a></li>
+          <li><a href="#sobre-mi" data-en="About me">Sobre mí</a></li>
+          <li><a href="#logros" data-en="Achievements">Logros</a></li>
+          <li><a href="#areas" data-en="Expertise">Áreas</a></li>
+          <li><a href="#prensa" data-en="Press">Prensa</a></li>
+          <li><a href="#contacto" data-en="Contact">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="bar-end">
+        <div class="lang" role="group" data-aria-es="Idioma" data-aria-en="Language" aria-label="Idioma">
+          <button type="button" data-set-lang="es" aria-pressed="true" lang="es">ES</button>
+          <button type="button" data-set-lang="en" aria-pressed="false" lang="en">EN</button>
+        </div>
+        <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="menu" data-en="Menu">Menú</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero dark" id="inicio">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <h1>Jackie Condomí Alcorta</h1>
+        <p class="lead" data-en="Consultancy in Institutional Relations, Transformation, Psychosocial Well-being and Organizational Culture.">Consultora en Relaciones Institucionales, Transformación, Bienestar Psicosocial y Cultura Organizacional.</p>
+        <p class="sub" data-en="We are driven to create meaningful impact in organizations, teams and people. With perspective and innovation, we help build change with purpose, fostering conscious cultures and promoting positive psychosocial well-being.">Nos motiva generar impacto significativo en organizaciones, equipos y personas. Acompañamos con perspectiva e innovación a construir cambio con sentido, fomentando culturas conscientes y promoviendo bienestar psicosocial positivo.</p>
+        <p>
+          <a class="btn btn-primary" href="#contacto" data-en="Get in touch">Contactame</a>
+        </p>
+      </div>
+
+      <div class="arch">
+        <div class="arch-frame">
+          <img src="foto.jpg" width="800" height="1000" alt="Retrato de Jackie Condomí Alcorta" data-alt-es="Retrato de Jackie Condomí Alcorta" data-alt-en="Portrait of Jackie Condomí Alcorta" onerror="this.style.display='none'">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sobre-mi">
+    <div class="wrap split">
+      <h2 data-en="About me">Sobre mí</h2>
+      <div class="prose">
+        <p data-en="We help leaders and organizations manage transformation, psychosocial well-being and culture. We design and implement organizational well-being programs and strengthen conscious cultures and teams.">Ayudamos a líderes y organizaciones a gestionar la transformación, el bienestar psicosocial y la cultura. Diseño e implementación de programas de bienestar organizacional y fortalecimiento de culturas conscientes y equipos.</p>
+        <p data-en="We drive positive impact in people and organizations with a corporate strategic vision and a psychological, systemic and humanistic approach. Cross-sector collaboration, corporate social responsibility, civil society organizations, and initiatives focused on impact and results.">Impulsamos impacto positivo en personas y organizaciones con visión estratégica corporativa y con enfoque psicológico, sistémico y humanista. Articulación intersectorial, responsabilidad social empresarial, organizaciones de la sociedad civil y desarrollo de iniciativas con enfoque en impacto y resultados.</p>
+        <p class="closing" data-en="We aim to strengthen individual and collective strengths, creating an environment that supports sustainable growth.">Buscamos potenciar las fortalezas individuales y colectivas, creando un ambiente propicio para el crecimiento sostenible.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="logros">
+    <div class="wrap split">
+      <h2 data-en="Achievements">Logros</h2>
+      <div>
+        <ul class="ledger">
+          <li>
+            <span class="num">+17</span>
+            <span class="txt" data-en="years leading projects in Wellness and Health.">años liderando proyectos en el ámbito del Wellness y la Salud.</span>
+          </li>
+          <li>
+            <span class="num">14</span>
+            <span class="txt" data-en="years in the corporate sector, civil society organizations and corporate social responsibility.">años en el sector corporativo, en organizaciones de la sociedad civil y en responsabilidad social empresarial.</span>
+          </li>
+          <li>
+            <span class="num">+15</span>
+            <span class="txt" data-en="years of experience in Public and Institutional Relations and Communication.">años de experiencia en Relaciones Públicas e Institucionales y Comunicación.</span>
+          </li>
+        </ul>
+
+        <div class="commit">
+          <h3 data-en="Social purpose and commitment">Propósito social y compromiso</h3>
+          <ul>
+            <li data-en="Member of Women in Global Health (Alliance for Women's Health).">Miembro de Women in Global Health (Alianza por la Salud de la Mujer).</li>
+            <li data-en="Member of the Argentine Professional Council of Public Relations and Communication.">Miembro del Consejo Profesional Argentino de Relaciones Públicas y Comunicación.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="areas">
+    <div class="wrap split">
+      <h2 data-en="Areas of expertise">Áreas de expertise</h2>
+      <ul class="areas">
+        <li>
+          <h3 data-en="Cultural transformation">Transformación cultural</h3>
+          <p data-en="Support for leaders and organizations to manage change with purpose.">Acompañamiento a líderes y organizaciones para gestionar el cambio con sentido.</p>
+        </li>
+        <li>
+          <h3 data-en="Psychosocial well-being">Bienestar psicosocial</h3>
+          <p data-en="Design and implementation of organizational well-being programs.">Diseño e implementación de programas de bienestar organizacional.</p>
+        </li>
+        <li>
+          <h3 data-en="Human and organizational development">Desarrollo humano y organizacional</h3>
+          <p data-en="Strengthening of conscious cultures and teams.">Fortalecimiento de culturas conscientes y equipos.</p>
+        </li>
+        <li>
+          <h3 data-en="Public and Institutional Relations and Communication">Relaciones Públicas e Institucionales y Comunicación</h3>
+          <p data-en="More than 15 years of experience.">Más de 15 años de experiencia.</p>
+        </li>
+        <li>
+          <h3 data-en="Organizational psychosociology and coaching">Psicosociología organizacional y coaching</h3>
+          <p data-en="Psychological, executive and systemic organizational coaching.">Coaching psicológico, ejecutivo y organizacional sistémico.</p>
+        </li>
+        <li>
+          <h3 data-en="Cross-sector collaboration and CSR">Articulación intersectorial y RSE</h3>
+          <p data-en="Corporate social responsibility, civil society organizations and initiatives focused on impact and results.">Responsabilidad social empresarial, organizaciones de la sociedad civil e iniciativas con enfoque en impacto y resultados.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section alt" id="prensa">
+    <div class="wrap split">
+      <h2 data-en="Press and publications">Prensa y publicaciones</h2>
+      <ul class="press">
+        <li>
+          <span class="kind" data-en="Article (in Spanish)">Nota en Netnews</span>
+          <a href="https://netnews.com.ar/nota/4213-Mas-alla-del-techo-de-cristal-el-laberinto-emocional-y-profesional-de-las-mujeres-lideres" target="_blank" rel="noopener" data-en="Beyond the glass ceiling: the emotional and professional labyrinth of women leaders">Más allá del techo de cristal: el laberinto emocional y profesional de las mujeres líderes</a>
+        </li>
+        <li>
+          <span class="kind" data-en="Magazine">Revista</span>
+          <a href="https://issuu.com/desafioexportar/docs/revista_desaf_o_exportar_n_236./46?e=47&amp;o=1" target="_blank" rel="noopener" data-en="Desafío Exportar magazine, issue 236">Revista Desafío Exportar, edición N.º 236</a>
+        </li>
+        <li>
+          <span class="kind" data-en="Magazine">Revista</span>
+          <a href="https://issuu.com/desafioexportar/docs/revista_desafio_exportar_240./34" target="_blank" rel="noopener" data-en="Desafío Exportar magazine, issue 240">Revista Desafío Exportar, edición N.º 240</a>
+        </li>
+        <li>
+          <span class="kind" data-en="Magazine">Revista</span>
+          <a href="https://issuu.com/desafioexportar/docs/revista_desafio_exportar_242/14" target="_blank" rel="noopener" data-en="Desafío Exportar magazine, issue 242">Revista Desafío Exportar, edición N.º 242</a>
+        </li>
+        <li>
+          <span class="kind" data-en="Magazine">Revista</span>
+          <a href="https://issuu.com/desafioexportar/docs/revista_desafio_exportar_245/28" target="_blank" rel="noopener" data-en="Desafío Exportar magazine, issue 245">Revista Desafío Exportar, edición N.º 245</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section dark contact" id="contacto">
+    <div class="wrap split">
+      <h2 data-en="Let's talk">Conversemos</h2>
+      <div>
+        <p data-en="If you want to start a transformation, well-being or culture process in your organization, write to us.">Si querés impulsar un proceso de transformación, bienestar o cultura en tu organización, escribinos.</p>
+        <a class="email" href="mailto:bienestar.viapositiva@gmail.com">bienestar.viapositiva@gmail.com</a>
+        <div class="actions">
+          <a class="btn btn-primary" href="mailto:bienestar.viapositiva@gmail.com" data-en="Send an email">Escribir por email</a>
+          <a class="btn btn-line" href="https://www.linkedin.com/in/jackie-condomi-alcorta/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn-line" href="https://www.instagram.com/via_positiva/" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Jackie Condomí Alcorta. Via Positiva.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var META = {
+    es: {
+      title: "Jackie Condomí Alcorta | Via Positiva, transformación y bienestar psicosocial",
+      desc: "Via Positiva acompaña a líderes y organizaciones en transformación, bienestar psicosocial y cultura organizacional. Más de 17 años de experiencia.",
+      ogLocale: "es_AR"
+    },
+    en: {
+      title: "Jackie Condomí Alcorta | Via Positiva, change and psychosocial well-being",
+      desc: "Via Positiva supports leaders and organizations in transformation, psychosocial well-being and organizational culture. Over 17 years of experience.",
+      ogLocale: "en_US"
+    }
+  };
+
+  var texts = document.querySelectorAll("[data-en]");
+  var labels = document.querySelectorAll("[data-aria-en]");
+  var imgs = document.querySelectorAll("[data-alt-en]");
+  var langButtons = document.querySelectorAll("[data-set-lang]");
+
+  texts.forEach(function (el) {
+    el.setAttribute("data-es", el.textContent.trim());
+  });
+
+  function setMeta(selector, value) {
+    var el = document.querySelector(selector);
+    if (el) el.setAttribute("content", value);
+  }
+
+  function setLang(lang) {
+    lang = lang === "en" ? "en" : "es";
+
+    texts.forEach(function (el) { el.textContent = el.getAttribute("data-" + lang); });
+    labels.forEach(function (el) { el.setAttribute("aria-label", el.getAttribute("data-aria-" + lang)); });
+    imgs.forEach(function (el) { el.setAttribute("alt", el.getAttribute("data-alt-" + lang)); });
+
+    document.documentElement.lang = lang;
+    document.title = META[lang].title;
+    setMeta('meta[name="description"]', META[lang].desc);
+    setMeta('meta[property="og:title"]', META[lang].title);
+    setMeta('meta[property="og:description"]', META[lang].desc);
+    setMeta('meta[property="og:locale"]', META[lang].ogLocale);
+
+    langButtons.forEach(function (b) {
+      b.setAttribute("aria-pressed", b.getAttribute("data-set-lang") === lang ? "true" : "false");
+    });
+
+    try { localStorage.setItem("vp-lang", lang); } catch (e) {}
+  }
+
+  langButtons.forEach(function (b) {
+    b.addEventListener("click", function () { setLang(b.getAttribute("data-set-lang")); });
+  });
+
+  var initial = "es";
+  try {
+    var fromUrl = new URLSearchParams(window.location.search).get("lang");
+    var stored = localStorage.getItem("vp-lang");
+    initial = fromUrl || stored || "es";
+  } catch (e) {}
+  setLang(initial);
+
+  /* Mobile menu */
+  var btn = document.getElementById("menu-btn");
+  var menu = document.getElementById("menu");
+  btn.addEventListener("click", function () {
+    var open = menu.classList.toggle("open");
+    btn.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+  menu.addEventListener("click", function (e) {
+    if (e.target.tagName === "A") {
+      menu.classList.remove("open");
+      btn.setAttribute("aria-expanded", "false");
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
